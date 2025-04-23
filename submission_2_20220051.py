@@ -55,7 +55,7 @@ def submission_2_20220051(yaml_path, output_json_path):
     optimizer = 'AdamW'
     lr = 1e-3
     momentum = 0.9
-    weight_decay = 1e-4
+    weight_decay = 5e-5
     confidence = 0.1
     
     ###### can be modified (Only Models, which can't be modified in demo) ######
